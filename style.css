@@ -270,7 +270,7 @@ p {
 
 /* Hero Section */
 #hero {
-	background-image: url(/img/setupPortfolio.jpg);
+	background-image: url(img/setupPortfolio.jpg);
 	background-size: cover;
 	opacity: 95%;
 	background-position: top center;
