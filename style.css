@@ -644,7 +644,7 @@ p {
 #footer .footer {
 	min-height: 200px;
 	flex-direction: column;
-	padding-top: 50px;
+	padding-top: 10px;
 	padding-bottom: 10px;
 }
 
