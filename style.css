@@ -114,7 +114,7 @@ p {
 }
 
 .brand h1 {
-	font-size: 3rem;
+	font-size: 2rem;
 	text-transform: uppercase;
 	color: white;
 }
@@ -735,6 +735,8 @@ p {
 	h1.section-title {
 		font-size: 6rem;
 	}
+
+	
 
 	/* Hero */
 	#hero h1 {
