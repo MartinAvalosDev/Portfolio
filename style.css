@@ -347,7 +347,7 @@ p {
 
 
 /* Services Section */
-#Skills .services {
+#Skills .services-container {
 	flex-direction: column;
 	text-align: center;
 	max-width: 1300px;
@@ -367,14 +367,16 @@ p {
 	justify-content: center;
 	flex-wrap: wrap;
 	margin-top: 50px;
+	
 }
 
 #Skills .service-item {
 	flex-basis: 80%;
 	display: flex;
-	align-items: flex-start;
+	align-items: center;
 	justify-content: center;
 	flex-direction: column;
+	max-width: 500px;
 	padding: 30px;
 	border-radius: 10px;
 	background-image: url(./img/img-1.png);
@@ -395,6 +397,12 @@ p {
 	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 	opacity: 0.9;
 	z-index: -1;
+	transition: 0.3s ease-in-out transform;
+}
+
+#Skills .service-item:hover{
+	transform: scale(1.1);
+	transition: 0.3s ease-out transform;
 }
 
 #Skills .service-bottom .icon {
@@ -490,8 +498,7 @@ p {
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-	opacity: 0.7;
+	
 }
 
 #projects .project-img img {
@@ -500,6 +507,12 @@ p {
 
 #projects .project-item:hover .project-img img {
 	transform: scale(1.1);
+	
+}
+
+.ecommerceLink{
+	list-style: none;
+	color: rgb(20, 207, 220);
 }
 
 /* End Projects section */
