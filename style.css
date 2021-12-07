@@ -385,6 +385,7 @@ p {
 	position: relative;
 	z-index: 1;
 	overflow: hidden;
+	transition: 0.3s ease-in-out transform;
 }
 
 #Skills .service-item::after {
